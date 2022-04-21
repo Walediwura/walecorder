@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Group 9 Media Recorder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <h3>Group 9 Media Recorder</h3>
+    
+      <video class="gum" playsinline autoplay muted></video>
+      <video class="recorded" playsinline loop></video>
+ 
+      <div>
+        <button class="start">Start camera</button>
+        <button class="record" disabled>Record</button>
+        <button class="play" disabled>Play</button>
+        <button class="download" disabled>Download</button>
+      </div>
+ 
+      <div class="string">
+        <h4>Media Stream Constraints options</h4>
+        <p>
+          Echo cancellation: <input type="checkbox" class="echoCancellation" />
+        </p>
+      </div>
+ 
+      <div>
+        <span class="errorMsg"></span>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
